@@ -4,6 +4,8 @@ This a program meant to detect colors in a sample video. The colors are highligh
 
 The main program is executed from the *Image_processing.py* script while *Suitable_hues.py* is a supplementary script meant to run tests to determine the best range of HSV (Hue, Saturation, Value) values for the desired colors.
 
+This was the final project of the 4th year Image processing course at University of Ottawa
+
 ## The methodology
 
 Colors in computer vision are represented as an ordered triple. Each of them represent an RGB value. The *Suitable_hues.py* script is meant to find the best range to identify different colors. These values can be modified manually, but are susceptible to filtering, color correction, brightening, and more. Therefore, the video will first be filtered to remove noise, erode the video, and dilate the video.
